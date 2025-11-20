@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kingdom Coffee — A Taste Of Heaven</title>
+
+  <!-- Icons -->
+   <link rel="shortcut icon" href="./assets/Images/freeMuffin.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" />
+
+  <!-- Link to the main stylesheet -->
+  <link rel="stylesheet" href="./assets/css/root.css">
+
+  <!-- Small inline theme hint for search engines and fallback -->
+  <meta name="theme-color" content="#000000" />
+
+  <!-- Fallback fonts + accessibility improvements -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!--
+    Main page layout
+    - Header with logo & nav
+    - Hero: welcoming message + CTA
+    - About: short playful blurb
+    - Menu preview: 3 items
+    - Contact / Footer
+    (comments explain blocks and purposes)
+  -->
+
+  <header class="site-header">
+    <!-- Logo + simple nav -->
+    <div class="container header-inner">
+      <a class="logo" href="/">Kingdom Coffee</a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero section: big friendly message -->
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <h1 class="hero-title">Welcome to <span class="accent">Kingdom Coffee</span></h1>
+        <p class="hero-sub">Coffee that smiles back — crafted with care, served with style.</p>
+           <div class="socials">
+  <a href="https://www.instagram.com/kingdomcoffeersa/" aria-label="Instagram">
+    <span class="material-symbols-rounded">photo_camera</span>
+  </a>
+
+  <a href="https://www.threads.com/@kingdomcoffeersa" aria-label="Threads">
+    <span class="material-symbols-rounded">alternate_email</span>
+  </a>
+
+  <a href="https://www.tiktok.com/@kingdom.coffee.rs" aria-label="TikTok">
+    <span class="material-symbols-rounded">music_note</span>
+  </a>
+</div>
+        <div class="hero-ctas">
+          <a class="btn primary" href="#menu">See Menu</a>
+          <a class="btn ghost" href="#contact">Visit Us</a>
+        </div>
+      </div>
+    </section>
+
+     <!-- Menu preview: simple cards -->
+    <section class="menu" id="menu">
+      <div class="container">
+        <h2>Menu Highlights</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Chips and Nuggets</h3>
+            <p>6 Chicken Nuggets and Small Chips</p>
+            <span class="price">R49.90</span>
+          </article>
+
+          <article class="card">
+            <h3>Chicken Burger</h3>
+            <p>Chicken patty, Cheese, No Garnish & Our Signature Sauce.</p>
+            <span class="price">R49.90</span>
+          </article>
+
+          <article class="card">
+            <h3>Skhambane</h3>
+            <p>Chips, Achaar, Cheese & Polony</p>
+            <span class="price">R20.00</span>
+          </article>
+          <article class="card">
+            <h3>Somthing Meaty</h3>
+            <p>Mozzarella, Bacon, Beef Strips, Pepperoni, Chorizo, Cheese Griller & Spare Rib</p>
+            <span class="price">R179.00</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Display Image -->
+    <img src="./assets/Images/MuffinFree_V.jpg" alt="MuffinsFree" class="hero-image" 
+        style="display: flex;
+            justify-content: center;
+            align-items: center;
+            object-fit: cover;
+            max-width: 80%;
+            margin: 0 auto;
+            padding-bottom: 2rem;
+            border-radius: 20px;
+            ">
+
+    <!-- About: short, playful, professional -->
+    <section class="about" id="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>
+          We blend bold flavours, warm vibes and a touch of gold — because good coffee
+          deserves a little sparkle. From single-origin delights to cozy lattes, we
+          make every cup with a smile.
+        </p>
+      </div>
+    </section>
+
+   
+
+    <!-- Contact: embedded map  -->
+    <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!4v1763640291007!6m8!1m7!1srwOfgnIE_jIAS6i7sJoEkg!2m2!1d-26.65257165410513!2d27.96329350299781!3f20.98059457742463!4f6.762338906696002!5f0.7820865974627469" width="95%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!-- Contact: simple address + hours -->
+    <section class="contact" id="contact">
+      <div class="container contact-inner">
+        <div>
+          <h2>Visit Us</h2>
+          <p>21 Umtata St,
+            <br>
+            Three Rivers,
+            <br>
+            Vereeniging,
+            <br>
+            1929</p>
+          <p>Mon — Fri: 07h00 — 18:00
+            <br>
+            Sat : 07h00 — 20h00
+            <br>
+            Sun: CLOSED
+        </p>
+        </div>
+        <div>
+          <h2>Say Hello</h2>
+          <p>Email: hello@kingdomcoffee.example</p>
+          <p>Phone: +27 82 497 2684</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>Kingdom Coffee &copy; <span id="year"></span> All rights reserved.</small>
+    </div>
+  </footer>
+
+  <!-- Link to the main JS file (animations + small helpers) -->
+  <script src="./assets/js/Anim.js" defer></script>
+
+  <noscript>
+    <!-- (returns: minimal fallback if JS disabled) -->
+    <style> .hero-ctas { display:block; } </style>
+    <div class="no-js-warning">Some animations are unavailable because JavaScript is disabled.</div>
+  </noscript>
+
+</body>
+</html>

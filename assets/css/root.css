@@ -1,0 +1,286 @@
+/*
+  Root theme styles for Golden Bean Coffee
+  - Black background
+  - Gold primary (#d4af37) and white secondary
+  - Clean, playful but professional typography
+  - Comments explain how each part works
+*/
+
+/* Color variables (for easy theme control) */
+:root {
+  --bg: #000000;
+  --gold: #d4af37;
+  --white: #ffffff;
+  --soft-white: rgba(255, 255, 255, 0.8);
+  --font-main: 'Inter', sans-serif;
+}
+
+/* Reset basic spacing + remove default margins */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg);
+  color: var(--gold);
+  font-family: var(--font-main);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* Container utility (keeps layout centered) */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* — HEADER — */
+.site-header {
+  padding: 1.2rem 0;
+  border-bottom: 1px solid var(--gold);
+  position: sticky;
+  top: 0;
+  background: var(--bg);
+  z-index: 999;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--gold);
+}
+
+.nav a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: var(--white);
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.nav a:hover {
+  color: var(--gold);
+  text-shadow: 0 0 8px var(--gold);
+}
+
+/* — HERO — */
+.hero {
+  padding: 6rem 0 5rem;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero-title .accent {
+  color: var(--white);
+}
+
+.hero-sub {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  color: var(--soft-white);
+}
+
+.hero-ctas {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* inna Hero */
+.hero-inner {
+    border: 3px solid var(--gold);
+    border-radius: 30px;
+  position: relative;
+  padding: 5rem;
+  overflow: hidden;
+}
+
+.hero-inner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../Images/freezos.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(5px); /* (blurs only the image) */
+  transform: scale(1.1); /* fixes blur edge clipping */
+  z-index: -1; /* keeps it behind your content */
+}
+
+/* Button styling (playful but professional) */
+.btn {
+  padding: 0.8rem 1.4rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.btn.primary {
+  background: var(--gold);
+  color: var(--bg);
+}
+
+.btn.primary:hover {
+  opacity: 0.9;
+  transform: scale(1.03);
+}
+
+.btn.ghost {
+  border: 2px solid var(--gold);
+  color: var(--gold);
+}
+
+.btn.ghost:hover {
+  background: var(--gold);
+  color: var(--bg);
+}
+
+/* — ABOUT SECTION — */
+.about {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  max-width: 700px;
+  margin: auto;
+  color: var(--soft-white);
+}
+
+/* — MENU CARDS — */
+.menu {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.menu h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  border: 1px solid var(--gold);
+  padding: 1.5rem;
+  border-radius: 10px;
+  background: #111;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+}
+
+.card h3 {
+  margin-bottom: 0.5rem;
+  color: var(--white);
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: var(--soft-white);
+  margin-bottom: 1rem;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+/* — CONTACT — */
+.contact {
+  padding: 4rem 0;
+}
+
+.contact-inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.contact-inner h2 {
+  margin-bottom: 0.5rem;
+}
+
+
+/* — EMBEDDED MAP — */
+.map-container {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  overflow: hidden;
+}
+/* — FOOTER — */
+.site-footer {
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--gold);
+  text-align: center;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+
+}
+.socials a span.material-symbols-rounded {
+    font-size: 26px;
+  color: var(--white);
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.socials a:hover span.material-symbols-rounded {
+  color: var(--gold);
+  transform: scale(1.15);
+}
+
+
+/* — RESPONSIVE TWEAKS — */
+@media (max-width: 600px) {
+  .hero-title {
+    font-size: 2.4rem;
+  }
+
+  .header-inner, .contact-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav a {
+    margin: 0 0.6rem;
+  }
+}
