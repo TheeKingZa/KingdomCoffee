@@ -1,0 +1,83 @@
+//CLASSIC PIZZA
+MED - 30 CM
+LRG - 35 CM
+
+MARGHERITA 
+Tom base, Mozz cheese, herbs & spices.
+MED - R74.90
+LRG - R99.90
+
+HAWAIIAN
+Mozzarella, Beef Ham & Pineapple
+MED - R74.90
+LRG - R129.90
+
+MACON AVO FETTA
+Mozzarella, Macon, Avacado & Feta.
+MED - R74.90
+LRG - R159.90
+
+REGINA
+Mozzarella, Beef Ham & Mushrooms.
+MED - R74.90
+LRG - R129.90
+
+VEGETARIAN
+Olives, Peppers, Mush, Red Onion, Garlic
+MED - R74.90
+LRG - R139.90
+
+THREE CHEESE
+Mozzarella, Cheddar & Feta.
+MED - R74.90
+LRG - R119.90
+
+PEPPERONI
+Mozzarella, Pepperoni Sausage.
+MED - R74.90
+LRG - R139.90
+
+
+FOCACCIA
+Olive oil, Herbs, Garlic.
+MED - R54.90
+LRG - R64.90
+
+DUO
+Any Two Oh So Heavenly Pizza Shared
+R179.00
+
+
+//OH SO HEAVENLY
+SOMETHING MEATY
+Mozzarella, Macon, Beef Strips, pepperoni, Chorizo, Cheese Griller & Spare Rib.
+R179.00
+
+STEAK DELUXE
+R159.00
+Mozzarella, Beef Strips, Red Onion, Mushrooms & Peppers.
+
+BBQ CHICKEN
+Mozzarella, Chicken, Red Onion & BBQ Sause
+R149.00
+
+SWEET CHILLI CHIC.
+Mozzarella, Chicken, Mushrooms, Sweet Chilli Sause, Peppadews & Avocado.
+R149.00
+
+CHICK MAYO
+Mozzarella & Our Own Chicken Mayo Recipe
+R129.00
+
+SPARE RIB
+Mozzarella, Spare Rib and Caramelized Onion.
+R149.00
+
+CHORIZO
+Chorizo Sausage, Caramelized Onions & Green Pepper.
+R149.00
+
+CHESSE GRILLER
+Mozzarella, Cheddar, Cheese Griller.
+
+

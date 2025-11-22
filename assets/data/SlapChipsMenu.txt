@@ -1,0 +1,54 @@
+//SLAP CHIPS
+CHIPS MINI (200G)
+R24.90
+CHIPS SMALL (320G)
+R34.90
+CHIPS MED (470G)
+R45.90
+CHIPS LARGE (750G)
+R68.90
+FAMILY CHIPS (1.2KG)
+R91.90
+
+//COMBOS
+RUSSIAN & CHIP ROLL 
+Russian, Chips & Roll
+R32.90
+
+RUSSIAN & (MIN) CHIPS
+Russian & Chips 200g
+R34.90
+
+RUSSIAN (S) CHIPS
+Russian & Chips 320g
+R40.90
+
+
+RUSSIAN & (M) CHIPS
+Russian & Chips 470g
+R88.90
+
+
+HAKE & (S) CHIPS 
+Hake & Chips 320g
+R64.90
+
+HAKE & (M) CHIPS 
+Hake & Chips 470g
+R82.90
+
+FAMILY MEAL
+4 Russians, Fam Chips, 4 Rolls 
+R159.90
+
+
+CHEESE GRILLER MEAL
+4 Cheese Grillers, Fam Chips, 4 Rolls
+R199.90
+
+//EXTRAS
+RUSSIAN - R20.00
+VIENNA - R7.00
+HAKE - R38.00
+CHEESE GRILLER - R40.00
+

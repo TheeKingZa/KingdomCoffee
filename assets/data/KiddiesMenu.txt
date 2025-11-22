@@ -1,0 +1,41 @@
+
+//KIDDIES MENU
+//COMBO WITH CHIPS- Price
+
+KIDDIES BURGER
+Beef patty, No Garnish & with Our Signature Sauce.
+R45.90
+
+CHEESE BURGER
+Beef patty, Cheese, No Garnish & Our Signature Sauce.
+R45.90
+
+CHICKEN BURGER
+Chicken Patty, Cheese, No Garnish & Our Signature Sauce.
+R49.90
+
+
+//TOASTIES MENU
+
+CHEESE
+Cheddar Cheese, Small Chips.
+R39.90
+
+CHICKEN MAYO
+Chicken Mayo & Small Chips
+R39.90
+
+//CHIPS MENU
+
+CHIPS AND NUGGETS
+R49.90
+
+6 Chicken Nuggets and Small Chips
+R49.90
+
+CHIPS AND VIENNA
+2 Vienna's & Small Chips
+
+CHICKEN STRIPS & CHPS
+4 Chicken Strips & Small Chips
+R59.90

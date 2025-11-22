@@ -1,0 +1,73 @@
+//Burger MENU
+//Price
+//COMBO WITH CHIPS Price
+
+CLASSIC BURGER
+Beef patty, Relish, With Our Signature Sauce.
+R64.90
+COMBO WITH CHIPS - R74.90 //example
+
+CHEESE BURGER
+Beef Patty, Cheese & Our Signature Sauce.
+R65.90
+R75.90
+
+MACON BURGER
+Beef Patty, Macon & Cheese With Our Signature Sause.
+R65.90
+R75.90
+
+MACON EGG & CHEESE
+Beef Patty, Egg, Cheese & Our Signature Sauce.
+R69.90
+R79.90
+
+CHICKEN BURGER
+Chicken Burger With Our Signature Sause.
+R69.90
+R79.90
+
+CHICKEN MACON & AVO
+Chicken, Macon, Avo & Our Signature Sauce.
+R71.90
+P81.90
+
+DAGWOOD BURGER.
+Double Patty, Egg, Macon, Cheese, Ham & Our Signature Sause.
+R94.90
+R104.90
+
+
+//SAUCY BURGERS
+COMBO WITH CHIPS
+
+SAUCY CHEESE
+Beef Patty, Cream Cheese, & Our Signature Sause
+R71.90
+R81.90
+
+BBQ BURGER
+Beef Patty Basted in BBQ Sause.
+R71.90
+R81.90
+
+SWEET CHILLI
+Beef Patty, Cheese & Sweet Chilli
+R71.90
+R81.90
+
+MUSHROOM
+Beef Patty with Mushrooms.
+R71.90
+R81.90
+
+
+DOUBLE BURGER
+Double Patty with our Signature sause.
+R71.90
+R81.90
+
+HAWAIIAN BURGER
+Beef Patty, Cheese & Pineapple With Our Signature Sauce.
+R71.90
+R81.90

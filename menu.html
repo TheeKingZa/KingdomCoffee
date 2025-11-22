@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kingdom Coffee — Menu</title>
+
+
+  <!-- Icons -->
+   <link rel="shortcut icon" href="./assets/Images/Logos/Logo_KC_w.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" />
+
+  <!-- Link to the main stylesheet -->
+  <link rel="stylesheet" href="./assets/css/root.css">
+
+  <!-- Small inline theme hint for search engines and fallback -->
+  <meta name="theme-color" content="#000000" />
+
+  <!-- Fallback fonts + accessibility improvements -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    h1,p  {
+        font-family: tiny5, sans-serif;
+      text-align: center;
+    }
+
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+      margin-top: 20px;
+      background: var(--bg);
+    }
+    th, td {
+      padding: 12px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+    th {
+      background: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+    <!--
+    Main page layout
+    - Header with logo & nav
+    - Hero: welcoming message + CTA
+    - Menu page: full menu from CSV
+    - Footer
+    (comments explain blocks and purposes)
+  -->
+
+  <header class="site-header">
+    <!-- Logo + simple nav -->
+    <div class="container header-inner">
+      <a class="logo" href="/">Kingdom Coffee</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="menu.html">___</a>
+      </nav>
+    </div>
+  </header>
+    <div>
+    <h1>Coffee Menu </h1>
+    <p>EXPERIENCE THE ROYAL TASTE OF OUR EXQUISITE COFFEE SELECTION!</p>
+    <!-- Container to hold CSV content -->
+    <table id="menuTable">
+      <thead>
+        <tr id="Coffee_tableHeaders"></tr>
+      </thead>
+      <tbody id="Coffee_tableBody"></tbody>
+    </table>
+    </div>
+
+    <!-- Kiddies -->
+    <h1>Kiddies Menu </h1>
+    <p>FUN-FILLED FLAVORS FOR OUR LITTLE ONES!</p>
+    <!-- Container to hold CSV content -->
+    <table id="menuTable">
+      <thead>
+        <tr id="Kiddies_tableHeaders"></tr>
+      </thead>
+      <tbody id="Kiddies_tableBody"></tbody>
+    </table>
+
+    <!-- Frozen -->
+    <h1>Frozen Menu </h1>
+    <p>CHILL OUT WITH OUR DELICIOUS FROZEN TREATS!</p>
+    <!-- Container to hold CSV content -->
+    <table id="menuTable">
+      <thead>
+        <tr id="Frozen_tableHeaders"></tr>
+      </thead>
+      <tbody id="Frozen_tableBody"></tbody>
+    </table>
+
+
+    <!-- Burger -->
+    <h1>Burger Menu </h1>
+    <p>BITE INTO OUR HEAVENLY BURGER PARADISE!</p>
+    <!-- Container to hold CSV content -->
+    <table id="menuTable">
+        <thead>
+        <tr id="Burger_tableHeaders"></tr>
+        </thead>
+        <tbody id="Burger_tableBody"></tbody>
+    </table>
+
+    <h1>Skhambane Menu </h1>
+    <p>DISCOVER THE FLAVORS OF SKHAMBANE!</p>
+    <!-- Container to hold CSV content -->
+    <table id="menuTable">
+      <thead>
+        <tr id="Skhambane_tableHeaders"></tr>
+      </thead>
+      <tbody id="Skhambane_tableBody"></tbody>
+    </table>
+
+    <!-- Pizza -->
+    <h1>Pizza Menu </h1>
+    <p>SLICE INTO DELICIOUSNESS WITH OUR PIZZA MENU!</p>
+    <!-- Container to hold CSV content -->
+    <table id="menuTable">
+      <thead>
+        <tr id="Pizza_tableHeaders"></tr>
+      </thead>
+      <tbody id="Pizza_tableBody"></tbody>
+    </table>
+
+    <!-- Slap Chips -->
+    <h1>Slap Chips Menu </h1>
+    <p>CRUNCH INTO PERFECTION WITH OUR SLAP CHIPS!</p>
+    <!-- Container to hold CSV content -->
+    <table id="menuTable">
+      <thead>
+        <tr id="SlapChips_tableHeaders"></tr>
+      </thead>
+      <tbody id="SlapChips_tableBody"></tbody>
+    </table>
+    <!-- Toast -->
+    <h1>Toast Menu </h1>
+    <p>TOAST TO FLAVOR WITH OUR DELICIOUS TOAST OPTIONS!</p>
+    <!-- Container to hold CSV content -->
+    <table id="menuTable">
+      <thead>
+        <tr id="Toast_tableHeaders"></tr>
+      </thead>
+      <tbody id="Toast_tableBody"></tbody>
+    </table>
+
+
+
+    <!-- information section -->
+     <!-- Contact: simple address + hours -->
+    <section class="contact" id="contact">
+      <div class="container contact-inner">
+        <div class="cnt-inner1">
+          <div>
+
+            <h2>Visit Us</h2>
+            <p>21 Umtata St,
+              <br>
+              Three Rivers,
+              <br>
+              Vereeniging,
+              <br>
+              1929</p>
+            </div>
+
+
+            <!-- Working hrs -->
+            <div>
+
+              <h2>Working Hours</h2>
+              <p>Mon — Fri: 07h00 — 18h00
+                <br>
+                Sat : 07h00 — 20h00
+                <br>
+                Sun: CLOSED
+              </p>
+            </div> 
+        </div>
+        <div class="cnt-inner2">
+
+          <div>
+            <img src="./assets/Images/Logos/Logo_KC_w.png" alt="logo"  width="50%" max-height="450px">
+          </div>
+          <div>
+            <div>
+              <h2>Say Hello</h2>
+              <p>Email: hello@kingdomcoffee.example</p>
+              <p>Phone: +27 82 497 2684</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+
+    <footer class="site-footer">
+    <div class="container footer-inner">
+        <small>Kingdom Coffee &copy; <span id="year"></span> All rights reserved.</small>
+    </div>
+    </footer>
+
+    <!-- Link to the main JS file (animations + small helpers) -->
+    <script src="./assets/js/Anim.js" defer></script>
+    <!-- Link to the Burger Menu script -->
+    <script src="./assets/js/BurgerMenu.js"></script>
+    <script src="./assets/js/KiddiesMenu.js"></script>
+    <script src="./assets/js/PizzaMenu.js"></script>
+    <script src="./assets/js/SkhambaneMenu.js"></script>
+    <script src="./assets/js/SlapChipsMenu.js"></script>
+    <script src="./assets/js/ToastMenu.js"></script>
+    <script src="./assets/js/CoffeeMenu.js"></script>
+    <script src="./assets/js/frozenMenu.js"></script>
+
+  <noscript>
+    <!-- (returns: minimal fallback if JS disabled) -->
+    <style> .hero-ctas { display:block; } </style>
+    <div class="no-js-warning">Some animations are unavailable because JavaScript is disabled.</div>
+  </noscript>
+
+
+</body>
+</html>

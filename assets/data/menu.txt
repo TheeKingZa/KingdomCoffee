@@ -1,0 +1,70 @@
+Cafe
+
+// Matcha Drinks//
+Matcha Latte
+R45
+Matcha Latte Ice
+R50
+Mango Matcha
+R70
+Strawberry
+R70
+
+// Freezos
+Aero Peppermint
+R35
+Bar one
+R35
+Cherry
+R35
+Iced Coffee
+R35
+Mixed Berries
+R35
+Salted Caramel
+R35
+Watermelon
+R35
+Salted Carm Coffee 
+R40
+
+//Coffee
+Americano
+(S) R30
+(M) R35
+Butterscotch Latte
+(S) R30
+(M) R35
+Cafe Latte
+(S) R30
+(M) R35
+Cappuccino
+(S) R30
+(M) R35
+Chai Tea Latte
+(S) R30
+(M) R35
+Dark Mocha Latte
+(S) R30
+(M) R35
+Dirty Chai Latte
+(S) R30
+(M) R35
+Espresso
+(S) R15
+(D) R25
+Flat White Latte
+(S) R30
+(M) R35
+Hot Chocolate
+(S) R30
+(M) R35
+White Hot Chocolate
+(S) R30
+(M) R35
+Hazelnut Latte
+(S) R30
+(M) R35
+Honey & Hazelnut
+(S) R40
+(M) R45

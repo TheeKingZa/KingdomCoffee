@@ -1,0 +1,28 @@
+//SKHAMBANE MENU
+
+SKHAMBANE
+Chips, atchar, Cheese & Polony
+R20.00
+
+SKHAMBANE + VIENNA
+Chips, Atchar, Polony & Vienna
+R22.00
+
+SKHAMBANE + RUSSIAN
+Chips, Russian, Polony & Atchar
+R30.00
+
+BIG SKHAMBANE
+Chips, Russian, Atchar, Egg, patty & Macon
+R53,00
+
+MEATY SKHAMBANE
+Macon, Russian, Egg, Chips, Patty, Cheese, Polony & Vienna.
+R73.00
+
+//EXTRAS
+CHIPS - R5.00
+EGG - R5.00
+MACON - R5.00
+VIENNA - R5.00
+RUSSIAN - R10.00

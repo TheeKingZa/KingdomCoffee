@@ -1,0 +1,61 @@
+// TOAST MENU
+//TOASTIES
+CHEESE HAM & TOMATO
+Cheddar Cheese, Beef Ham & Tom
+R27.90
+
+CHEESE & HAM
+Cheddar Cheese & Ham
+R29.90
+
+CHEEESE & MACON
+Cheddar Cheese & Macon
+R32.90
+
+CHEESE MACON & EGG
+Cheddar Cheese, Macon, Egg
+R35.90
+
+CICKEN MAYO
+Chicken Mayo & Cheddar Cheese
+R35.90
+
+CHICKEN MAYO & AVO
+Chicken Mayo, Avo & Cheddar Cheese
+R39.90
+
+CHICKEN MAYO & CHESSE
+Chicken Mayo & Cheddar Cheese
+R42.90
+
+//Slap Chips
+//EXTRAS
+
+BBQ CHICKEN & CHEESE
+Chicken Bits, BBQ Sause & Cheddar
+R42.90
+
+CHORIZO & CHEESE
+Chorizo Sausage, Cheddar Cheese
+R49.90
+
+MACON EGG & CHEESE
+Macon, Egg & Cheddar Cheese
+R42.90
+
+//EXTRAS
+AVACADO
+R20.00
+EXTRA CHIPS
+R10.00
+EGG
+R5.00
+FETA CHEESE
+R10.00
+MUSHROOMS
+R15.00
+MACON
+R10.00
+
+
+//ALL TOASTIES CAN ADD R10.00 AS A COMBO FOR CHIPS
