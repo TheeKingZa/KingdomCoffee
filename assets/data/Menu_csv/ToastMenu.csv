@@ -1,0 +1,21 @@
+Category,Item,Description,Price
+Toast Menu,CHEESE HAM & TOMATO,* Cheddar Cheese * Beef Ham & Tomato,R27.90
+Toast Menu,CHEESE & HAM,* Cheddar Cheese & Ham,R29.90
+Toast Menu,CHEEESE & MACON,* Cheddar Cheese & Macon,R32.90
+Toast Menu,CHEESE MACON & EGG,* Cheddar Cheese * Macon * Egg,R35.90
+Toast Menu,CHICKEN MAYO,* Chicken Mayo & Cheddar Cheese,R35.90
+Toast Menu,CHICKEN MAYO & AVO,* Chicken Mayo * Avo & Cheddar Cheese,R39.90
+Toast Menu,CHICKEN MAYO & CHEESE,* Chicken Mayo & Cheddar Cheese",R42.90
+
+Toast Menu,BBQ CHICKEN & CHEESE,* Chicken Bits * BBQ Sauce & Cheddar,R42.90
+Toast Menu,CHORIZO & CHEESE,* Chorizo Sausage * Cheddar Cheese,R49.90
+Toast Menu,MACON EGG & CHEESE,* Macon * Egg & Cheddar Cheese,R42.90
+
+Extras,AVACADO,,R20.00
+Extras,EXTRA CHIPS,,R10.00
+Extras,EGG,,R5.00
+Extras,FETA CHEESE,,R10.00
+Extras,MUSHROOMS,,R15.00
+Extras,MACON,,R10.00
+
+Toast Menu,TOASTIE COMBO OPTION,Add Chips to Any Toastie,R10.00
