@@ -390,19 +390,47 @@ a { color: inherit; }
 ========================= */
 .contact-inner {
   display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
+  grid-template-columns: 1fr 1fr;
   gap: 1.2rem;
   align-items: stretch;
+  background-color: var(--bg);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--gold);
 }
 
-.cnt-inner1,
+.cnt-inner1 {
+  width: 100%;
+  padding: 1.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1.2rem;
+  background-color: var(--gold);
+  border-radius: var(--radius-lg);
+}
+
+.cnt-inner1_header {
+  background-color: var(--bg);
+  padding-left: 25px ;
+  padding-right: 10px;
+  border-radius: 25px 25px 0 0;
+}
+
+.cnt-inner1-openings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .cnt-inner2 {
   width: 100%;
   padding: 1.6rem;
-  border-radius: var(--radius-lg);
-  background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(212,175,55,0.35);
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
   gap: 1.2rem;
   align-content: start;
 }
@@ -543,11 +571,37 @@ a { color: inherit; }
   }
 
   .nav a { margin-left: 0; margin-inline: 0.2rem; }
-
   .hero { padding: 3.5rem 0 2.5rem; }
-
   .hero-image { max-width: 95%; height: 340px; }
+  
 }
+
+/* Grids and Divs for lrgScreens */
+@media (width > 1080px) {
+  .grid_Scrn {
+    padding: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--gold);
+    }
+
+    .grid_Scrn h1 {
+      color: var(--bg);
+    }
+}
+/* smlScreens */
+@media (width < 400) {
+
+  .grid_Scrn {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  
+}
+
 
 /* =========================
    REDUCED MOTION
