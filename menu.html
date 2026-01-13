@@ -5,229 +5,233 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kingdom Coffee — Menu</title>
 
-
-  <!-- Icons -->
-   <link rel="shortcut icon" href="./assets/Images/Logos/Logo_KC_w.png" type="image/x-icon">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" />
-
-  <!-- Link to the main stylesheet -->
-  <link rel="stylesheet" href="./assets/css/root.css">
-
-  <!-- Small inline theme hint for search engines and fallback -->
+  <meta name="description" content="Explore the Kingdom Coffee menu — coffee, burgers, pizza, frozen treats, kiddies meals and more." />
   <meta name="theme-color" content="#000000" />
 
-  <!-- Fallback fonts + accessibility improvements -->
+  <link rel="shortcut icon" href="./assets/Images/Logos/Logo_KC_w.png" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" />
 
-  <style>
-    h1,p  {
-        font-family: tiny5, sans-serif;
-      text-align: center;
-    }
-
-
-    table {
-        width: 100%;
-        border-collapse: collapse;
-      margin-top: 20px;
-      background: var(--bg);
-    }
-    th, td {
-      padding: 12px;
-      border: 1px solid #ccc;
-      text-align: left;
-    }
-    th {
-      background: #333;
-      color: white;
-    }
-  </style>
+  <link rel="stylesheet" href="./assets/css/root.css">
+  <link rel="stylesheet" href="./assets/css/menu.css">
 </head>
+
+<!-- Go up Fixed button -->
+<button class="back-to-top" type="button" aria-label="Back to top">
+  <span class="material-symbols-rounded" aria-hidden="true">arrow_upward</span>
+</button>
+
 <body>
-
-    <!--
-    Main page layout
-    - Header with logo & nav
-    - Hero: welcoming message + CTA
-    - Menu page: full menu from CSV
-    - Footer
-    (comments explain blocks and purposes)
-  -->
-
   <header class="site-header">
-    <!-- Logo + simple nav -->
     <div class="container header-inner">
-      <a class="logo" href="/">Kingdom Coffee</a>
-      <nav class="nav">
+      <a class="logo" href="index.html">Kingdom Coffee</a>
+      <nav class="nav" aria-label="Primary navigation">
         <a href="index.html">Home</a>
-        <a href="menu.html">___</a>
+        <a href="menu.html" aria-current="page">Menu</a>
+        <a href="#contact">Contact</a>
       </nav>
     </div>
   </header>
-    <div>
-    <h1>Coffee Menu </h1>
-    <p>EXPERIENCE THE ROYAL TASTE OF OUR EXQUISITE COFFEE SELECTION!</p>
-    <!-- Container to hold CSV content -->
-    <table id="menuTable">
-      <thead>
-        <tr id="Coffee_tableHeaders"></tr>
-      </thead>
-      <tbody id="Coffee_tableBody"></tbody>
-    </table>
-    </div>
 
-    <!-- Kiddies -->
-    <h1>Kiddies Menu </h1>
-    <p>FUN-FILLED FLAVORS FOR OUR LITTLE ONES!</p>
-    <!-- Container to hold CSV content -->
-    <table id="menuTable">
-      <thead>
-        <tr id="Kiddies_tableHeaders"></tr>
-      </thead>
-      <tbody id="Kiddies_tableBody"></tbody>
-    </table>
+  <main class="menu-page">
+    <section class="menu-hero">
+      <div class="container">
+        <h1 class="page-title">Our Menu</h1>
+        <p class="page-subtitle">Coffee, fast food favourites, and treats — made fresh, served fast.</p>
 
-    <!-- Frozen -->
-    <h1>Frozen Menu </h1>
-    <p>CHILL OUT WITH OUR DELICIOUS FROZEN TREATS!</p>
-    <!-- Container to hold CSV content -->
-    <table id="menuTable">
-      <thead>
-        <tr id="Frozen_tableHeaders"></tr>
-      </thead>
-      <tbody id="Frozen_tableBody"></tbody>
-    </table>
+        <nav class="menu-jump" aria-label="Menu categories">
+          <a href="#coffee">Coffee</a>
+          <a href="#kiddies">Kiddies</a>
+          <a href="#frozen">Frozen</a>
+          <a href="#burgers">Burgers</a>
+          <a href="#skhambane">Skhambane</a>
+          <a href="#pizza">Pizza</a>
+          <a href="#slapchips">Slap Chips</a>
+          <a href="#toast">Toast</a>
+        </nav>
+      </div>
+    </section>
 
+    <!-- Coffee -->
+    <section class="menu-section" id="coffee">
+      <div class="container">
+        <header class="section-head">
+          <h2>Coffee</h2>
+          <p class="muted">Experience the royal taste of our exquisite coffee selection.</p>
+        </header>
 
-    <!-- Burger -->
-    <h1>Burger Menu </h1>
-    <p>BITE INTO OUR HEAVENLY BURGER PARADISE!</p>
-    <!-- Container to hold CSV content -->
-    <table id="menuTable">
-        <thead>
-        <tr id="Burger_tableHeaders"></tr>
-        </thead>
-        <tbody id="Burger_tableBody"></tbody>
-    </table>
-
-    <h1>Skhambane Menu </h1>
-    <p>DISCOVER THE FLAVORS OF SKHAMBANE!</p>
-    <!-- Container to hold CSV content -->
-    <table id="menuTable">
-      <thead>
-        <tr id="Skhambane_tableHeaders"></tr>
-      </thead>
-      <tbody id="Skhambane_tableBody"></tbody>
-    </table>
-
-    <!-- Pizza -->
-    <h1>Pizza Menu </h1>
-    <p>SLICE INTO DELICIOUSNESS WITH OUR PIZZA MENU!</p>
-    <!-- Container to hold CSV content -->
-    <table id="menuTable">
-      <thead>
-        <tr id="Pizza_tableHeaders"></tr>
-      </thead>
-      <tbody id="Pizza_tableBody"></tbody>
-    </table>
-
-    <!-- Slap Chips -->
-    <h1>Slap Chips Menu </h1>
-    <p>CRUNCH INTO PERFECTION WITH OUR SLAP CHIPS!</p>
-    <!-- Container to hold CSV content -->
-    <table id="menuTable">
-      <thead>
-        <tr id="SlapChips_tableHeaders"></tr>
-      </thead>
-      <tbody id="SlapChips_tableBody"></tbody>
-    </table>
-    <!-- Toast -->
-    <h1>Toast Menu </h1>
-    <p>TOAST TO FLAVOR WITH OUR DELICIOUS TOAST OPTIONS!</p>
-    <!-- Container to hold CSV content -->
-    <table id="menuTable">
-      <thead>
-        <tr id="Toast_tableHeaders"></tr>
-      </thead>
-      <tbody id="Toast_tableBody"></tbody>
-    </table>
-
-
-
-    <!-- information section -->
-     <!-- Contact: simple address + hours -->
-    <section class="contact" id="contact">
-      <div class="container contact-inner">
-        <div class="cnt-inner1">
-          <div>
-
-            <h2>Visit Us</h2>
-            <p>21 Umtata St,
-              <br>
-              Three Rivers,
-              <br>
-              Vereeniging,
-              <br>
-              1929</p>
-            </div>
-
-
-            <!-- Working hrs -->
-            <div>
-
-              <h2>Working Hours</h2>
-              <p>Mon — Fri: 07h00 — 18h00
-                <br>
-                Sat : 07h00 — 20h00
-                <br>
-                Sun: CLOSED
-              </p>
-            </div> 
-        </div>
-        <div class="cnt-inner2">
-
-          <div>
-            <img src="./assets/Images/Logos/Logo_KC_w.png" alt="logo"  width="50%" max-height="450px">
-          </div>
-          <div>
-            <div>
-              <h2>Say Hello</h2>
-              <p>Email: hello@kingdomcoffee.example</p>
-              <p>Phone: +27 82 497 2684</p>
-            </div>
-          </div>
+        <div class="table-wrap" role="region" aria-label="Coffee menu table" tabindex="0">
+          <table class="menu-table">
+            <thead><tr id="Coffee_tableHeaders"></tr></thead>
+            <tbody id="Coffee_tableBody"></tbody>
+          </table>
         </div>
       </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Kiddies -->
+    <section class="menu-section" id="kiddies">
+      <div class="container">
+        <header class="section-head">
+          <h2>Kiddies</h2>
+          <p class="muted">Fun-filled flavors for our little ones.</p>
+        </header>
 
+        <div class="table-wrap" role="region" aria-label="Kiddies menu table" tabindex="0">
+          <table class="menu-table">
+            <thead><tr id="Kiddies_tableHeaders"></tr></thead>
+            <tbody id="Kiddies_tableBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
 
-    <footer class="site-footer">
+    <!-- Frozen -->
+    <section class="menu-section" id="frozen">
+      <div class="container">
+        <header class="section-head">
+          <h2>Frozen</h2>
+          <p class="muted">Chill out with our delicious frozen treats.</p>
+        </header>
+
+        <div class="table-wrap" role="region" aria-label="Frozen menu table" tabindex="0">
+          <table class="menu-table">
+            <thead><tr id="Frozen_tableHeaders"></tr></thead>
+            <tbody id="Frozen_tableBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Burgers -->
+    <section class="menu-section" id="burgers">
+      <div class="container">
+        <header class="section-head">
+          <h2>Burgers</h2>
+          <p class="muted">Bite into our burger favourites.</p>
+        </header>
+
+        <div class="table-wrap" role="region" aria-label="Burger menu table" tabindex="0">
+          <table class="menu-table">
+            <thead><tr id="Burger_tableHeaders"></tr></thead>
+            <tbody id="Burger_tableBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skhambane -->
+    <section class="menu-section" id="skhambane">
+      <div class="container">
+        <header class="section-head">
+          <h2>Skhambane</h2>
+          <p class="muted">Discover the flavors of Skhambane.</p>
+        </header>
+
+        <div class="table-wrap" role="region" aria-label="Skhambane menu table" tabindex="0">
+          <table class="menu-table">
+            <thead><tr id="Skhambane_tableHeaders"></tr></thead>
+            <tbody id="Skhambane_tableBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pizza -->
+    <section class="menu-section" id="pizza">
+      <div class="container">
+        <header class="section-head">
+          <h2>Pizza</h2>
+          <p class="muted">Slice into deliciousness.</p>
+        </header>
+
+        <div class="table-wrap" role="region" aria-label="Pizza menu table" tabindex="0">
+          <table class="menu-table">
+            <thead><tr id="Pizza_tableHeaders"></tr></thead>
+            <tbody id="Pizza_tableBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slap Chips -->
+    <section class="menu-section" id="slapchips">
+      <div class="container">
+        <header class="section-head">
+          <h2>Slap Chips</h2>
+          <p class="muted">Crunch into perfection.</p>
+        </header>
+
+        <div class="table-wrap" role="region" aria-label="Slap chips menu table" tabindex="0">
+          <table class="menu-table">
+            <thead><tr id="SlapChips_tableHeaders"></tr></thead>
+            <tbody id="SlapChips_tableBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Toast -->
+    <section class="menu-section" id="toast">
+      <div class="container">
+        <header class="section-head">
+          <h2>Toast</h2>
+          <p class="muted">Toast to flavor with our delicious options.</p>
+        </header>
+
+        <div class="table-wrap" role="region" aria-label="Toast menu table" tabindex="0">
+          <table class="menu-table">
+            <thead><tr id="Toast_tableHeaders"></tr></thead>
+            <tbody id="Toast_tableBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="container contact-inner">
+        <div class="cnt-inner1">
+          <div>
+            <h2>Visit Us</h2>
+            <p>21 Umtata St,<br>Three Rivers,<br>Vereeniging,<br>1929</p>
+          </div>
+
+          <div>
+            <h2>Working Hours</h2>
+            <p>Mon — Fri: 07:00 — 18:00<br>Sat: 07:00 — 20:00<br>Sun: Closed</p>
+          </div>
+        </div>
+
+        <div class="cnt-inner2">
+          <div>
+            <img src="./assets/Images/Logos/Logo_KC_w.png" alt="Kingdom Coffee logo" width="100%" height="160">
+          </div>
+          <div>
+            <h2>Say Hello</h2>
+            <p>Email: <a href="mailto:hello@kingdomcoffee.example">hello@kingdomcoffee.example</a></p>
+            <p>Phone: <a href="tel:+27824972684">+27 82 497 2684</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
     <div class="container footer-inner">
-        <small>Kingdom Coffee &copy; <span id="year"></span> All rights reserved.</small>
+      <small>Kingdom Coffee &copy; <span id="year"></span> All rights reserved.</small>
     </div>
-    </footer>
+  </footer>
 
-    <!-- Link to the main JS file (animations + small helpers) -->
-    <script src="./assets/js/Anim.js" defer></script>
-    <!-- Link to the Burger Menu script -->
-    <script src="./assets/js/BurgerMenu.js"></script>
-    <script src="./assets/js/KiddiesMenu.js"></script>
-    <script src="./assets/js/PizzaMenu.js"></script>
-    <script src="./assets/js/SkhambaneMenu.js"></script>
-    <script src="./assets/js/SlapChipsMenu.js"></script>
-    <script src="./assets/js/ToastMenu.js"></script>
-    <script src="./assets/js/CoffeeMenu.js"></script>
-    <script src="./assets/js/frozenMenu.js"></script>
-
-  <noscript>
-    <!-- (returns: minimal fallback if JS disabled) -->
-    <style> .hero-ctas { display:block; } </style>
-    <div class="no-js-warning">Some animations are unavailable because JavaScript is disabled.</div>
-  </noscript>
-
-
+  <script src="./assets/js/anim.js" defer></script>
+  <script src="./assets/js/BurgerMenu.js" defer></script>
+  <script src="./assets/js/KiddiesMenu.js" defer></script>
+  <script src="./assets/js/PizzaMenu.js" defer></script>
+  <script src="./assets/js/SkhambaneMenu.js" defer></script>
+  <script src="./assets/js/SlapChipsMenu.js" defer></script>
+  <script src="./assets/js/ToastMenu.js" defer></script>
+  <script src="./assets/js/CoffeeMenu.js" defer></script>
+  <script src="./assets/js/frozenMenu.js" defer></script>
 </body>
 </html>

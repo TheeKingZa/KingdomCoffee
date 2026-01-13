@@ -3,132 +3,176 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Kingdom Coffee — A Taste Of Heaven</title>
+  <title>Kingdom Coffee — Coffee & Fast Food in Three Rivers</title>
 
-  <!-- Icons -->
-   <link rel="shortcut icon" href="./assets/Images/Logos/Logo_KC_w.png" type="image/x-icon">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" />
-
-  <!-- Link to the main stylesheet -->
-  <link rel="stylesheet" href="./assets/css/root.css">
-
-  <!-- Small inline theme hint for search engines and fallback -->
+  <meta name="description" content="Kingdom Coffee in Three Rivers, Vereeniging — great coffee, burgers, snacks and more. Visit us for quality, flavor and good vibes." />
   <meta name="theme-color" content="#000000" />
 
-  <!-- Fallback fonts + accessibility improvements -->
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="./assets/Images/Logos/Logo_KC_w.png" type="image/x-icon">
+
+  <!-- Fonts / Icons -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" />
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="./assets/css/root.css">
+
+  <!-- Open Graph (nice previews when sharing) -->
+  <meta property="og:title" content="Kingdom Coffee — Coffee & Fast Food" />
+  <meta property="og:description" content="Great coffee, burgers, snacks and more in Three Rivers, Vereeniging." />
+  <meta property="og:type" content="website" />
+  <!-- Replace with a real absolute URL if possible -->
+  <!-- <meta property="og:url" content="https://your-domain.com/" /> -->
+  <meta property="og:image" content="./assets/Images/Logos/Logo_KC_text_w.png" />
 </head>
+
+
+
+<!-- Go up Fixed button -->
+<button class="back-to-top" type="button" aria-label="Back to top">
+  <span class="material-symbols-rounded" aria-hidden="true">arrow_upward</span>
+</button>
+
+
+<!-- BODY -->
 <body>
-  <!--
-    Main page layout
-    - Header with logo & nav
-    - Hero: welcoming message + CTA
-    - About: short playful blurb
-    - Menu preview: 3 items
-    - Contact / Footer
-    (comments explain blocks and purposes)
-  -->
+  <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header">
-    <!-- Logo + simple nav -->
     <div class="container header-inner">
-      <a class="logo" href="/">Kingdom Coffee</a>
-      <nav class="nav">
+      <a class="brand" href="#home" aria-label="Kingdom Coffee Home">
+        <img src="./assets/Images/Logos/Logo_KC_w.png" alt="Kingdom Coffee logo" width="10%" height=".5%">
+        <span class="brand-name"></span>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
         <a href="#about">About</a>
         <a href="menu.html">Menu</a>
+        <a href="#location">Location</a>
         <a href="#contact">Contact</a>
       </nav>
     </div>
   </header>
 
-  <main>
-    <!-- Hero section: big friendly message -->
+  <main id="main">
+    <!-- HERO -->
     <section class="hero" id="home">
       <div class="container hero-inner">
-        <h1 class="hero-title">Welcome to <span class="accent">Kingdom Coffee</span></h1>
-        <p class="hero-sub">Coffee that smiles back — crafted with care, served with style.</p>
-           <div class="socials">
-  <a href="https://www.instagram.com/kingdomcoffeersa/" aria-label="Instagram">
-    <span class="material-symbols-rounded">photo_camera</span>
-  </a>
+        <div class="hero-copy">
+          <h1 class="hero-title">
+            Kingdom Coffee<br>
+            <span class="accent">Coffee & Fast Food</span>
+          </h1>
 
-  <a href="https://www.threads.com/@kingdomcoffeersa" aria-label="Threads">
-    <span class="material-symbols-rounded">alternate_email</span>
-  </a>
+          <p class="hero-sub">
+            Fresh coffee, tasty snacks and fast food favorites — crafted with care, served with style.
+          </p>
 
-  <a href="https://www.tiktok.com/@kingdom.coffee.rs" aria-label="TikTok">
-    <span class="material-symbols-rounded">music_note</span>
-  </a>
-</div>
-        <div class="hero-ctas">
-          <a class="btn primary" href="#menuhighlights">Menu Highlights</a>
-          <a class="btn ghost" href="#contact">Visit Us</a>
+          <div class="hero-ctas">
+            <a class="btn primary" href="menu.html">View Full Menu</a>
+            <a class="btn ghost" href="#location">Get Directions</a>
+          </div>
+
+          <div class="socials" aria-label="Social links">
+            <a href="https://www.instagram.com/kingdomcoffeersa/" aria-label="Instagram">
+              <span class="material-symbols-rounded" aria-hidden="true">photo_camera</span>
+            </a>
+            <a href="https://www.threads.com/@kingdomcoffeersa" aria-label="Threads">
+              <span class="material-symbols-rounded" aria-hidden="true">alternate_email</span>
+            </a>
+            <a href="https://www.tiktok.com/@kingdom.coffee.rs" aria-label="TikTok">
+              <span class="material-symbols-rounded" aria-hidden="true">music_note</span>
+            </a>
+          </div>
         </div>
+
+        <!-- Optional: hero image (recommended for professionalism) -->
+        <figure class="hero-media">
+          <img
+            src="./assets/Images/station.jpg"
+            alt="Coffee station at Kingdom Coffee"
+            class="hero-image"
+            width="100%"
+            height="700"
+            loading="eager"
+          />
+        </figure>
       </div>
     </section>
 
-    <!-- Logo Display -->
-     <img src="./assets/Images/Logos/Logo_KC_text_w.png" alt="" width="100%" max-height="100%" style="padding: 5rem;">
+    <!-- LOGO STRIP / BRAND IMAGE -->
+    <section class="logo-strip" aria-label="Brand">
+      <div class="container">
+        <img
+          src="./assets/Images/Logos/Logo_KC_text_w.png"
+          alt="Kingdom Coffee — A Taste of Heaven"
+          class="logo-strip-image"
+          width="1400"
+          height="400"
+          loading="lazy"
+        />
+      </div>
+    </section>
 
-    <!-- photo of coffee bags -->
-    <img src="./assets/Images/Coffee.jpg" alt="CoffeeBags" class="hero-image" 
-        style="display: flex;
-            justify-content: center;
-            align-items: center;
-            object-fit: cover;
-            max-width: 80%;
-            height: 450px;
-            margin: 0 auto;
-            padding-bottom: 2rem;
-            border-radius: 20px;
-           ">
-
-
-     <!-- Menu preview: simple cards -->
+    <!-- MENU HIGHLIGHTS -->
     <section class="menu" id="menuhighlights">
       <div class="container">
-        <h2>Menu Highlights</h2>
+        <div class="section-head">
+          <h2>Menu Highlights</h2>
+          <p class="muted">A few customer favorites — see the full menu for more.</p>
+        </div>
+
         <div class="cards">
           <article class="card">
-            <h3>Chips and Nuggets</h3>
-            <p>6 Chicken Nuggets and Small Chips</p>
+            <h3>Chips & Nuggets</h3>
+            <p>6 chicken nuggets with small chips.</p>
             <span class="price">R49.90</span>
           </article>
 
           <article class="card">
             <h3>Chicken Burger</h3>
-            <p>Chicken patty, Cheese, No Garnish & Our Signature Sauce.</p>
+            <p>Chicken patty, cheese, no garnish & our signature sauce.</p>
             <span class="price">R49.90</span>
           </article>
 
           <article class="card">
             <h3>Skhambane</h3>
-            <p>Chips, Achaar, Cheese & Polony</p>
+            <p>Chips, achaar, cheese & polony.</p>
             <span class="price">R20.00</span>
           </article>
+
           <article class="card">
-            <h3>Somthing Meaty</h3>
-            <p>Mozzarella, Bacon, Beef Strips, Pepperoni, Chorizo, Cheese Griller & Spare Rib</p>
+            <h3>Something Meaty</h3>
+            <p>Mozzarella, bacon, beef strips, pepperoni, chorizo, cheese griller & spare rib.</p>
             <span class="price">R179.00</span>
           </article>
+        </div>
+
+        <div class="section-cta">
+          <a class="btn primary" href="menu.html">See Full Menu</a>
         </div>
       </div>
     </section>
 
-    <!-- Display Image -->
-    <img src="./assets/Images/MuffinFree_V.jpg" alt="MuffinsFree" class="hero-image" 
-        style="display: flex;
-            justify-content: center;
-            align-items: center;
-            object-fit: cover;
-            max-width: 80%;
-            margin: 0 auto;
-            padding-bottom: 2rem;
-            border-radius: 20px;
-            ">
+    <!-- FEATURE IMAGE -->
+    <section class="image-section" aria-label="Fresh bakes">
+      <div class="container">
+        <figure class="section-media">
+          <img
+            src="./assets/Images/MuffinFree_V.jpg"
+            alt="Fresh muffins on display"
+            class="section-image"
+            width="1200"
+            height="700"
+            loading="lazy"
+          />
+        </figure>
+      </div>
+    </section>
 
-    <!-- About: short, playful, professional -->
+    <!-- ABOUT -->
     <section class="about" id="about">
       <div class="container">
         <h2>About Us</h2>
@@ -140,71 +184,77 @@
       </div>
     </section>
 
-   
-       <!-- photo of coffee bags -->
-    <img src="./assets/Images/station.jpg" alt="CoffeeBags" class="hero-image" 
-        style="display: flex;
-            justify-content: center;
-            align-items: center;
-            object-fit: contain;
-            max-width: 80%;
-            height: 450px;
-            margin: 0 auto;
-            padding-bottom: 2rem;
-            border-radius: 20px;
-           ">
-
-
-
-    <!-- Contact: embedded map  -->
-    <div class="map-container">
-        <iframe src="https://www.google.com/maps/embed?pb=!4v1763640291007!6m8!1m7!1srwOfgnIE_jIAS6i7sJoEkg!2m2!1d-26.65257165410513!2d27.96329350299781!3f20.98059457742463!4f6.762338906696002!5f0.7820865974627469" width="95%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-    <!-- Contact: simple address + hours -->
-    <section class="contact" id="contact">
-      <div class="container contact-inner">
-        <div class="cnt-inner1">
-          <div>
-
-            <h2>Visit Us</h2>
-            <p>21 Umtata St,
-              <br>
-              Three Rivers,
-              <br>
-              Vereeniging,
-              <br>
-              1929</p>
-            </div>
-
-
-            <!-- Working hrs -->
-            <div>
-
-              <h2>Working Hours</h2>
-              <p>Mon — Fri: 07h00 — 18h00
-                <br>
-                Sat : 07h00 — 20h00
-                <br>
-                Sun: CLOSED
-              </p>
-            </div> 
-        </div>
-        <div class="cnt-inner2">
-
-          <div>
-            <img src="./assets/Images/Logos/Logo_KC_w.png" alt="logo"  width="50%" max-height="450px">
-          </div>
-          <div>
-            <div>
-              <h2>Say Hello</h2>
-              <p>Email: hello@kingdomcoffee.example</p>
-              <p>Phone: +27 82 497 2684</p>
-            </div>
-          </div>
-        </div>
+    <!-- SECOND FEATURE IMAGE -->
+    <section class="image-section" aria-label="Our coffee station">
+      <div class="container" style="border-radius: 50%;">
+        <figure class="section-media">
+          <img
+            src="./assets/Images/BurgerWorld.jpg"
+            alt="Kingdom Coffee roasted coffee bags"
+            class="section-image contain"
+            width="10%"
+            height="50%"
+            loading="lazy"
+          />
+        </figure>
       </div>
     </section>
 
+    <!-- LOCATION / MAP -->
+    <section class="location" id="location">
+      <div class="container">
+        <h2>Find Us</h2>
+      </div>
+
+      <div class="map-container" aria-label="Google map location">
+        <iframe
+          title="Kingdom Coffee location map"
+          src="https://www.google.com/maps/embed?pb=!4v1763640291007!6m8!1m7!1srwOfgnIE_jIAS6i7sJoEkg!2m2!1d-26.65257165410513!2d27.96329350299781!3f20.98059457742463!4f6.762338906696002!5f0.7820865974627469"
+          width="100%"
+          height="450"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="container contact-inner">
+        <div class="contact-card">
+          <h2>Visit Us</h2>
+          <address>
+            21 Umtata St<br>
+            Three Rivers<br>
+            Vereeniging<br>
+            1929
+          </address>
+
+          <h3>Working Hours</h3>
+          <p>
+            Mon — Fri: 07:00 — 18:00<br>
+            Sat: 07:00 — 20:00<br>
+            Sun: Closed
+          </p>
+        </div>
+
+        <div class="contact-card">
+          <img
+            src="./assets/Images/Logos/Logo_KC_w.png"
+            alt="Kingdom Coffee logo mark"
+            width="100%"
+            height="160"
+            loading="lazy"
+          />
+
+          <h2>Say Hello</h2>
+          <p><a href="mailto:hello@kingdomcoffee.example">hello@kingdomcoffee.example</a></p>
+          <p><a href="tel:+27824972684">+27 82 497 2684</a></p>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
@@ -213,14 +263,29 @@
     </div>
   </footer>
 
-  <!-- Link to the main JS file (animations + small helpers) -->
   <script src="./assets/js/Anim.js" defer></script>
 
   <noscript>
-    <!-- (returns: minimal fallback if JS disabled) -->
-    <style> .hero-ctas { display:block; } </style>
+    <style>.hero-ctas { display:block; }</style>
     <div class="no-js-warning">Some animations are unavailable because JavaScript is disabled.</div>
   </noscript>
 
+  <!-- Optional: Local business schema (good for SEO). Update fields as needed. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "Kingdom Coffee",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "21 Umtata St",
+      "addressLocality": "Three Rivers",
+      "addressRegion": "Vereeniging",
+      "postalCode": "1929",
+      "addressCountry": "ZA"
+    },
+    "telephone": "+27 82 497 2684"
+  }
+  </script>
 </body>
 </html>
