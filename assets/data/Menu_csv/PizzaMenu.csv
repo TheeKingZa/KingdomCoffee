@@ -18,3 +18,35 @@ Oh So Heavenly,CHICK MAYO,* Mozzarella * Our Own Chicken Mayo Recipe,,R129.00
 Oh So Heavenly,SPARE RIB,* Mozzarella * Spare Rib * Caramelized Onion.,,R149.00
 Oh So Heavenly,CHORIZO,* Chorizo Sausage * Caramelized Onions * Green Pepper.,,R149.00
 Oh So Heavenly,CHESSE GRILLER,* Mozzarella * Cheddar * Cheese Griller.,,R139.00
+pizza001,MARGHERITA,* Tom base * Mozzarella cheese * herbs & spices.,74.90,Kingdom Coffee,Classic Pizza,KC-CPZ-001,,No,1,unit,No,Yes,99.90,Yes,Size,Large,,,,,,No
+pizza001,MARGHERITA,* Tom base * Mozzarella cheese * herbs & spices.,74.90,Kingdom Coffee,Classic Pizza,KC-CPZ-001,,No,1,unit,No,Yes,,Yes,Size,Medium,,,,,,No
+
+pizza002,HAWAIIAN,* Mozzarella * Beef Ham * Pineapple,74.90,Kingdom Coffee,Classic Pizza,KC-CPZ-002,,No,1,unit,No,Yes,129.90,Yes,Size,Large,,,,,,No
+pizza002,HAWAIIAN,* Mozzarella * Beef Ham * Pineapple,74.90,Kingdom Coffee,Classic Pizza,KC-CPZ-002,,No,1,unit,No,Yes,,Yes,Size,Medium,,,,,,No
+
+pizza003,MACON AVO FETTA,* Mozzarella * Macon * Avocado * Feta.,74.90,Kingdom Coffee,Classic Pizza,KC-CPZ-003,,No,1,unit,No,Yes,159.90,Yes,Size,Large,,,,,,No
+pizza003,MACON AVO FETTA,* Mozzarella * Macon * Avocado * Feta.,74.90,Kingdom Coffee,Classic Pizza,KC-CPZ-003,,No,1,unit,No,Yes,,Yes,Size,Medium,,,,,,No
+
+pizza004,REGINA,* Mozzarella * Beef Ham * Mushrooms.,74.90,Kingdom Coffee,Classic Pizza,KC-CPZ-004,,No,1,unit,No,Yes,129.90,Yes,Size,Large,,,,,,No
+pizza004,REGINA,* Mozzarella * Beef Ham * Mushrooms.,74.90,Kingdom Coffee,Classic Pizza,KC-CPZ-004,,No,1,unit,No,Yes,,Yes,Size,Medium,,,,,,No
+
+pizza005,VEGETARIAN,* Olives * Peppers * Mushrooms * Red Onion * Garlic,74.90,Kingdom Coffee,Classic Pizza,KC-CPZ-005,,No,1,unit,No,Yes,139.90,Yes,Size,Large,,,,,,No
+pizza005,VEGETARIAN,* Olives * Peppers * Mushrooms * Red Onion * Garlic,74.90,Kingdom Coffee,Classic Pizza,KC-CPZ-005,,No,1,unit,No,Yes,,Yes,Size,Medium,,,,,,No
+
+pizza006,THREE CHEESE,* Mozzarella * Cheddar * Feta.,74.90,Kingdom Coffee,Classic Pizza,KC-CPZ-006,,No,1,unit,No,Yes,119.90,Yes,Size,Large,,,,,,No
+pizza006,THREE CHEESE,* Mozzarella * Cheddar * Feta.,74.90,Kingdom Coffee,Classic Pizza,KC-CPZ-006,,No,1,unit,No,Yes,,Yes,Size,Medium,,,,,,No
+
+pizza007,PEPPERONI,* Mozzarella * Pepperoni Sausage.,74.90,Kingdom Coffee,Classic Pizza,KC-CPZ-007,,No,1,unit,No,Yes,139.90,Yes,Size,Large,,,,,,No
+pizza007,PEPPERONI,* Mozzarella * Pepperoni Sausage.,74.90,Kingdom Coffee,Classic Pizza,KC-CPZ-007,,No,1,unit,No,Yes,,Yes,Size,Medium,,,,,,No
+
+pizza008,FOCACCIA,* Olive oil * Herbs * Garlic.,54.90,Kingdom Coffee,Classic Pizza,KC-CPZ-008,,No,1,unit,No,Yes,64.90,Yes,Size,Large,,,,,,No
+pizza008,FOCACCIA,* Olive oil * Herbs * Garlic.,54.90,Kingdom Coffee,Classic Pizza,KC-CPZ-008,,No,1,unit,No,Yes,,Yes,Size,Medium,,,,,,No
+pizza009,DUO,* Any Two Oh So Heavenly Pizza Shared,179.00,Kingdom Coffee,Classic Pizza,KC-CPZ-009,,No,1,unit,No,Yes,,Yes,,,,,,,No
+pizza010,SOMETHING MEATY,* Mozzarella * Macon * Beef Strips * Pepperoni * Chorizo * Cheese Griller * Spare Rib.,179.00,Kingdom Coffee,Oh So Heavenly,KC-CPZ-010,,No,1,unit,No,Yes,,Yes,,,,,,,No
+pizza011,STEAK DELUXE,* Mozzarella * Beef Strips * Red Onion * Mushrooms * Peppers.,159.00,Kingdom Coffee,Oh So Heavenly,KC-CPZ-011,,No,1,unit,No,Yes,,Yes,,,,,,,No
+pizza012,BBQ CHICKEN,* Mozzarella * Chicken * Red Onion * BBQ Sauce,149.00,Kingdom Coffee,Oh So Heavenly,KC-CPZ-012,,No,1,unit,No,Yes,,Yes,,,,,,,No
+pizza013,SWEET CHILLI CHIC.,* Mozzarella * Chicken * Mushrooms * Sweet Chilli Sauce * Peppadews * Avocado.,149.00,Kingdom Coffee,Oh So Heavenly,KC-CPZ-013,,No,1,unit,No,Yes,,Yes,,,,,,,No
+pizza014,CHICK MAYO,* Mozzarella * Our Own Chicken Mayo Recipe,129.00,Kingdom Coffee,Oh So Heavenly,KC-CPZ-014,,No,1,unit,No,Yes,,Yes,,,,,,,No
+pizza015,SPARE RIB,* Mozzarella * Spare Rib * Caramelized Onion.,149.00,Kingdom Coffee,Oh So Heavenly,KC-CPZ-015,,No,1,unit,No,Yes,,Yes,,,,,,,No
+pizza016,CHORIZO,* Chorizo Sausage * Caramelized Onions * Green Pepper.,149.00,Kingdom Coffee,Oh So Heavenly,KC-CPZ-016,,No,1,unit,No,Yes,,Yes,,,,,,,No
+pizza017,CHESSE GRILLER,* Mozzarella * Cheddar * Cheese Griller.,139.00,Kingdom Coffee,Oh So Heavenly,KC-CPZ-017,,No,1,unit,No,Yes,,Yes,,,,,,,No

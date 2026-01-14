@@ -1,0 +1,61 @@
+Product ID,Product Name,Description,Default Price,Brand,Category,SKU,Default Cost Price,Ask For Quantity,Default Quantity,Quantity Units,Ask For Price,VAT Enabled,Variant Price,Variant Enabled,Attribute 1,Value 1,Attribute 2,Value 2,Attribute 3,Value 3,Image URL,Barcode,Track Stock
+burger001,CLASSIC BURGER,* Beef patty * Relish * With Our Signature Sauce.,64.90,Kingdom Coffee,Classic Burgers,KC-CB-001,,No,1,unit,No,Yes,,Yes,Meal Type,Single,,,,,,No
+burger001,CLASSIC BURGER,* Beef patty * Relish * With Our Signature Sauce.,64.90,Kingdom Coffee,Classic Burgers,KC-CB-002,,No,1,unit,No,Yes,74.90,Yes,Meal Type,Combo,,,,,,No
+burger002,CHEESE BURGER,* Beef Patty * Cheese & Our Signature Sauce.,65.90,Kingdom Coffee,Classic Burgers,KC-CB-003,,No,1,unit,No,Yes,,Yes,Meal Type,Single,,,,,,No
+burger002,CHEESE BURGER,* Beef Patty * Cheese & Our Signature Sauce.,65.90,Kingdom Coffee,Classic Burgers,KC-CB-004,,No,1,unit,No,Yes,75.90,Yes,Meal Type,Combo,,,,,,No
+burger003,MACON BURGER,* Beef Patty * Macon & Cheese With Our Signature Sauce.,65.90,Kingdom Coffee,Classic Burgers,KC-CB-005,,No,1,unit,No,Yes,,Yes,Meal Type,Single,,,,,,No
+burger003,MACON BURGER,* Beef Patty * Macon & Cheese With Our Signature Sauce.,65.90,Kingdom Coffee,Classic Burgers,KC-CB-006,,No,1,unit,No,Yes,75.90,Yes,Meal Type,Combo,,,,,,No
+burger004,MACON EGG & CHEESE,* Beef Patty * Egg * Cheese & Our Signature Sauce.,69.90,Kingdom Coffee,Classic Burgers,KC-CB-007,,No,1,unit,No,Yes,,Yes,Meal Type,Single,,,,,,No
+burger004,MACON EGG & CHEESE,* Beef Patty * Egg * Cheese & Our Signature Sauce.,69.90,Kingdom Coffee,Classic Burgers,KC-CB-008,,No,1,unit,No,Yes,79.90,Yes,Meal Type,Combo,,,,,,No
+
+coffee001,Americano,Freshly brewed Americano,30.00,Kingdom Coffee,Coffee,KC-CF-001,,No,1,cup,No,Yes,,Yes,Size,Small,,,,,,No
+coffee001,Americano,Freshly brewed Americano,30.00,Kingdom Coffee,Coffee,KC-CF-002,,No,1,cup,No,Yes,35.00,Yes,Size,Medium,,,,,,No
+coffee002,Butterscotch Latte,Butterscotch flavoured latte,30.00,Kingdom Coffee,Coffee,KC-CF-003,,No,1,cup,No,Yes,,Yes,Size,Small,,,,,,No
+coffee002,Butterscotch Latte,Butterscotch flavoured latte,30.00,Kingdom Coffee,Coffee,KC-CF-004,,No,1,cup,No,Yes,35.00,Yes,Size,Medium,,,,,,No
+coffee003,Cafe Latte,Smooth espresso with milk,30.00,Kingdom Coffee,Coffee,KC-CF-005,,No,1,cup,No,Yes,,Yes,Size,Small,,,,,,No
+coffee003,Cafe Latte,Smooth espresso with milk,30.00,Kingdom Coffee,Coffee,KC-CF-006,,No,1,cup,No,Yes,35.00,Yes,Size,Medium,,,,,,No
+coffee004,Cappuccino,Espresso with foamed milk,30.00,Kingdom Coffee,Coffee,KC-CF-007,,No,1,cup,No,Yes,,Yes,Size,Small,,,,,,No
+coffee004,Cappuccino,Espresso with foamed milk,30.00,Kingdom Coffee,Coffee,KC-CF-008,,No,1,cup,No,Yes,35.00,Yes,Size,Medium,,,,,,No
+coffee005,Chai Tea Latte,Spiced chai tea latte,30.00,Kingdom Coffee,Coffee,KC-CF-009,,No,1,cup,No,Yes,,Yes,Size,Small,,,,,,No
+coffee005,Chai Tea Latte,Spiced chai tea latte,30.00,Kingdom Coffee,Coffee,KC-CF-010,,No,1,cup,No,Yes,35.00,Yes,Size,Medium,,,,,,No
+coffee006,Dark Mocha Latte,Rich dark chocolate mocha,30.00,Kingdom Coffee,Coffee,KC-CF-011,,No,1,cup,No,Yes,,Yes,Size,Small,,,,,,No
+coffee006,Dark Mocha Latte,Rich dark chocolate mocha,30.00,Kingdom Coffee,Coffee,KC-CF-012,,No,1,cup,No,Yes,35.00,Yes,Size,Medium,,,,,,No
+coffee007,Dirty Chai Latte,Chai latte with espresso shot,30.00,Kingdom Coffee,Coffee,KC-CF-013,,No,1,cup,No,Yes,,Yes,Size,Small,,,,,,No
+coffee007,Dirty Chai Latte,Chai latte with espresso shot,30.00,Kingdom Coffee,Coffee,KC-CF-014,,No,1,cup,No,Yes,35.00,Yes,Size,Medium,,,,,,No
+coffee008,Espresso,Strong single espresso,15.00,Kingdom Coffee,Coffee,KC-CF-015,,No,1,cup,No,Yes,,Yes,Size,Small,,,,,,No
+coffee008,Espresso,Strong double espresso,15.00,Kingdom Coffee,Coffee,KC-CF-016,,No,1,cup,No,Yes,25.00,Yes,Size,Medium,,,,,,No
+coffee009,Flat White Latte,Creamy flat white latte,30.00,Kingdom Coffee,Coffee,KC-CF-017,,No,1,cup,No,Yes,,Yes,Size,Small,,,,,,No
+coffee009,Flat White Latte,Creamy flat white latte,30.00,Kingdom Coffee,Coffee,KC-CF-018,,No,1,cup,No,Yes,35.00,Yes,Size,Medium,,,,,,No
+coffee010,Hot Chocolate,Classic hot chocolate,30.00,Kingdom Coffee,Coffee,KC-CF-019,,No,1,cup,No,Yes,,Yes,Size,Small,,,,,,No
+coffee010,Hot Chocolate,Classic hot chocolate,30.00,Kingdom Coffee,Coffee,KC-CF-020,,No,1,cup,No,Yes,35.00,Yes,Size,Medium,,,,,,No
+coffee011,White Hot Chocolate,White chocolate drink,30.00,Kingdom Coffee,Coffee,KC-CF-021,,No,1,cup,No,Yes,,Yes,Size,Small,,,,,,No
+coffee011,White Hot Chocolate,White chocolate drink,30.00,Kingdom Coffee,Coffee,KC-CF-022,,No,1,cup,No,Yes,35.00,Yes,Size,Medium,,,,,,No
+coffee012,Hazelnut Latte,Hazelnut flavoured latte,30.00,Kingdom Coffee,Coffee,KC-CF-023,,No,1,cup,No,Yes,,Yes,Size,Small,,,,,,No
+coffee012,Hazelnut Latte,Hazelnut flavoured latte,30.00,Kingdom Coffee,Coffee,KC-CF-024,,No,1,cup,No,Yes,35.00,Yes,Size,Medium,,,,,,No
+coffee013,Honey & Hazelnut,Honey and hazelnut latte,40.00,Kingdom Coffee,Coffee,KC-CF-025,,No,1,cup,No,Yes,,Yes,Size,Small,,,,,,No
+coffee013,Honey & Hazelnut,Honey and hazelnut latte,40.00,Kingdom Coffee,Coffee,KC-CF-026,,No,1,cup,No,Yes,45.00,Yes,Size,Medium,,,,,,No
+
+matcha001,Matcha Latte,,45.00,Kingdom Coffee,Matcha Drinks,KC-MT-001,,No,1,cup,No,Yes,,Yes,,,,,,,No
+matcha002,Matcha Latte Ice,,50.00,Kingdom Coffee,Matcha Drinks,KC-MT-002,,No,1,cup,No,Yes,,Yes,,,,,,,No
+matcha003,Mango Matcha,,70.00,Kingdom Coffee,Matcha Drinks,KC-MT-003,,No,1,cup,No,Yes,,Yes,,,,,,,No
+matcha004,Strawberry Matcha,,70.00,Kingdom Coffee,Matcha Drinks,KC-MT-004,,No,1,cup,No,Yes,,Yes,,,,,,,No
+
+freezo001,Aero Peppermint,,35.00,Kingdom Coffee,Freezos,KC-FR-001,,No,1,cup,No,Yes,,Yes,,,,,,,No
+freezo002,Bar One,,35.00,Kingdom Coffee,Freezos,KC-FR-002,,No,1,cup,No,Yes,,Yes,,,,,,,No
+freezo003,Cherry,,35.00,Kingdom Coffee,Freezos,KC-FR-003,,No,1,cup,No,Yes,,Yes,,,,,,,No
+freezo004,Iced Coffee,,35.00,Kingdom Coffee,Freezos,KC-FR-004,,No,1,cup,No,Yes,,Yes,,,,,,,No
+freezo005,Mixed Berries,,35.00,Kingdom Coffee,Freezos,KC-FR-005,,No,1,cup,No,Yes,,Yes,,,,,,,No
+freezo006,Salted Caramel,,35.00,Kingdom Coffee,Freezos,KC-FR-006,,No,1,cup,No,Yes,,Yes,,,,,,,No
+freezo007,Watermelon,,35.00,Kingdom Coffee,Freezos,KC-FR-007,,No,1,cup,No,Yes,,Yes,,,,,,,No
+freezo008,Salted Caramel Coffee,,40.00,Kingdom Coffee,Freezos,KC-FR-008,,No,1,cup,No,Yes,,Yes,,,,,,,No
+
+kids001,KIDDIES BURGER,* Beef patty * No Garnish & with Our Signature Sauce.,45.90,Kingdom Coffee,Kiddies Menu,KC-KD-001,,No,1,unit,No,Yes,,Yes,,,,,,,No
+kids002,CHEESE BURGER,* Beef patty * Cheese * No Garnish & Our Signature Sauce.,45.90,Kingdom Coffee,Kiddies Menu,KC-KD-002,,No,1,unit,No,Yes,,Yes,,,,,,,No
+kids003,CHICKEN BURGER,* Chicken Patty * Cheese * No Garnish & Our Signature Sauce.,49.90,Kingdom Coffee,Kiddies Menu,KC-KD-003,,No,1,unit,No,Yes,,Yes,,,,,,,No
+
+toast001,CHEESE,* Cheddar Cheese * Small Chips.,39.90,Kingdom Coffee,Toasties Menu,KC-TS-001,,No,1,unit,No,Yes,,Yes,,,,,,,No
+toast002,CHICKEN MAYO,* Chicken Mayo * Small Chips.,39.90,Kingdom Coffee,Toasties Menu,KC-TS-002,,No,1,unit,No,Yes,,Yes,,,,,,,No
+
+chips001,CHIPS AND NUGGETS,* 6 Chicken Nuggets * Small Chips.,49.90,Kingdom Coffee,Chips Menu,KC-CP-001,,No,1,unit,No,Yes,,Yes,,,,,,,No
+chips002,CHIPS AND VIENNA,* 2 Vienna's * Small Chips.,49.90,Kingdom Coffee,Chips Menu,KC-CP-002,,No,1,unit,No,Yes,,Yes,,,,,,,No
+chips003,CHICKEN STRIPS & CHIPS,* 4 Chicken Strips * Small Chips.,59.90,Kingdom Coffee,Chips Menu,KC-CP-003,,No,1,unit,No,Yes,,Yes,,,,,,,No
